@@ -507,6 +507,22 @@ a { color: inherit; text-decoration: none; }
     color: var(--ink-faint);
 }
 
+.footer-links {
+    margin-top: 0.8rem;
+}
+
+.footer-links a {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--ink-faint);
+    margin: 4px 0;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: var(--paper);
+}
+
 /* ------------------------------------------------------------------ */
 /* Responsive                                                          */
 /* ------------------------------------------------------------------ */
